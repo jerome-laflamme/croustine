@@ -7,10 +7,10 @@ import { RouterView } from "vue-router";
   <div class="app">
     <header>
       <div class="wrapper">
-        <!-- <nav hidden>
-          <RouterLink to="/">Home</RouterLink>
-          <RouterLink to="/about">About</RouterLink>
-        </nav> -->
+        <nav>
+          <RouterLink to="/about">à propos</RouterLink>
+          <RouterLink to="/about">portfolio</RouterLink>
+        </nav>
       </div>
     </header>
     <main>
@@ -20,5 +20,21 @@ import { RouterView } from "vue-router";
 </template>
 
 <style scoped>
+nav {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding: 50px;
+}
 
+a {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--grey);
+  text-decoration: none;
+  z-index: 3;
+  margin-left: 50px;
+}
 </style>
