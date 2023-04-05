@@ -1,39 +1,39 @@
-@import url('https://fonts.googleapis.com/css2?family=Galada&family=Gloock&family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Galada&family=Gloock&family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&display=swap");
 
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 :root {
-    --pink: #F29FEA;
-    --grey: #333;
-    --light-grey: #E3E3E3;
-    
+  --pink: #f29fea;
+  --grey: #333;
+  --light-grey: #e3e3e3;
 }
 
-html,body{
-    overflow-x: hidden;
-    overflow-y: auto;
-  }
+html,
+body {
+  overflow-x: hidden;
+  overflow-y: auto;
+}
 
 body {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 16px;
-    line-height: 1.5;
-    color: #333;
-    background-color: #e6e6e6;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  background-color: #e6e6e6;
 }
 
 .wrapper {
-    max-width: 80%;
-    margin: auto;
+  max-width: 80%;
+  margin: auto;
 }
 
 .container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }

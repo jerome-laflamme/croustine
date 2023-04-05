@@ -1,23 +1,19 @@
-<script setup>
-
-</script>
+<script setup></script>
 
 <template>
   <main>
     <div class="background">
       <h1 class="rose">ROSE</h1>
-      <h1 class="par">PAR</h1> 
+      <h1 class="par">PAR</h1>
       <h1 class="choix">CHOIX</h1>
     </div>
     <div class="wrapper">
       <p class="welcome">bienvenu chez croustine</p>
     </div>
-    
   </main>
 </template>
 
 <style>
-
 h1 {
   position: fixed;
   top: -5%;
@@ -34,14 +30,13 @@ h1 {
 
 .par {
   animation: Par 20s linear infinite;
-  color: #BBB;
+  color: #bbb;
 }
 
 .choix {
   animation: Choix 20s linear infinite;
   color: #999;
 }
-
 
 .welcome {
   font-size: 1rem;
@@ -64,7 +59,6 @@ h1 {
   height: 100%;
   z-index: -1;
 }
-
 
 @keyframes Rose {
   from {
@@ -98,5 +92,4 @@ h1 {
     /* transform: translateX(100%); */
   }
 }
-
 </style>
